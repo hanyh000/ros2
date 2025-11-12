@@ -1,0 +1,5 @@
+  File "/home/hyh/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_service_server.py", line 1
+    from my first_package_msgs.srv import MultiSpawn
+            ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
