@@ -2,6 +2,7 @@
   "package_name": "my_first_package_msgs",
   "non_idl_tuples": [
     "/home/hyh/ros2_study/src/my_first_package_msgs:msg/CmdAndPoseVel.msg",
-    "/home/hyh/ros2_study/src/my_first_package_msgs:srv/MultiSpawn.srv"
+    "/home/hyh/ros2_study/src/my_first_package_msgs:srv/MultiSpawn.srv",
+    "/home/hyh/ros2_study/src/my_first_package_msgs:action/DistTurtle.action"
   ]
 }
