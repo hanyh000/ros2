@@ -1,0 +1,25 @@
+[0.371s] Invoking command in '/home/hyh/ros2_laser/src/laser_package': PYTHONPATH=/home/hyh/ros2_laser/build/laser_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyh/ros2_laser/install/laser_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_package build --build-base /home/hyh/ros2_laser/build/laser_package/build install --record /home/hyh/ros2_laser/build/laser_package/install.log --single-version-externally-managed install_data
+[0.504s] running egg_info
+[0.504s] writing ../../build/laser_package/laser_package.egg-info/PKG-INFO
+[0.505s] writing dependency_links to ../../build/laser_package/laser_package.egg-info/dependency_links.txt
+[0.505s] writing entry points to ../../build/laser_package/laser_package.egg-info/entry_points.txt
+[0.505s] writing requirements to ../../build/laser_package/laser_package.egg-info/requires.txt
+[0.505s] writing top-level names to ../../build/laser_package/laser_package.egg-info/top_level.txt
+[0.506s] reading manifest file '../../build/laser_package/laser_package.egg-info/SOURCES.txt'
+[0.506s] writing manifest file '../../build/laser_package/laser_package.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.507s] copying laser_package/laser_pub.py -> /home/hyh/ros2_laser/build/laser_package/build/lib/laser_package
+[0.507s] running install
+[0.507s] running install_lib
+[0.507s] copying /home/hyh/ros2_laser/build/laser_package/build/lib/laser_package/laser_pub.py -> /home/hyh/ros2_laser/install/laser_package/lib/python3.10/site-packages/laser_package
+[0.508s] byte-compiling /home/hyh/ros2_laser/install/laser_package/lib/python3.10/site-packages/laser_package/laser_pub.py to laser_pub.cpython-310.pyc
+[0.508s] running install_data
+[0.508s] running install_egg_info
+[0.509s] removing '/home/hyh/ros2_laser/install/laser_package/lib/python3.10/site-packages/laser_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.510s] Copying ../../build/laser_package/laser_package.egg-info to /home/hyh/ros2_laser/install/laser_package/lib/python3.10/site-packages/laser_package-0.0.0-py3.10.egg-info
+[0.510s] running install_scripts
+[0.521s] Installing laser_node script to /home/hyh/ros2_laser/install/laser_package/lib/laser_package
+[0.522s] Installing laser_pub script to /home/hyh/ros2_laser/install/laser_package/lib/laser_package
+[0.522s] writing list of installed files to '/home/hyh/ros2_laser/build/laser_package/install.log'
+[0.534s] Invoked command in '/home/hyh/ros2_laser/src/laser_package' returned '0': PYTHONPATH=/home/hyh/ros2_laser/build/laser_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyh/ros2_laser/install/laser_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_package build --build-base /home/hyh/ros2_laser/build/laser_package/build install --record /home/hyh/ros2_laser/build/laser_package/install.log --single-version-externally-managed install_data

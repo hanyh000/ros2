@@ -1,0 +1,3 @@
+[console_scripts]
+laser_node = laser_package.laser_node:mainlaser_pub = laser_package.laser_pub:main
+

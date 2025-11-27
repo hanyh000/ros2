@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:14 (ind_package):
+  Unknown CMake command "ind_package".
+
+[0m

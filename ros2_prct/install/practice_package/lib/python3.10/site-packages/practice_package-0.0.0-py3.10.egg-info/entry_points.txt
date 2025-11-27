@@ -1,0 +1,4 @@
+[console_scripts]
+pose_sub_and_pub = practice_package.pose_sub_and_pub:main
+practice_node = practice_package.practice_node:main
+

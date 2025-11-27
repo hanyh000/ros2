@@ -1,0 +1,2 @@
+Invoking command in '/home/hyh/ros2_prct/build/practice_package_msgs': /usr/bin/cmake /home/hyh/ros2_prct/src/practice_package_msgs -DCMAKE_INSTALL_PREFIX=/home/hyh/ros2_prct/install/practice_package_msgs
+Invoked command in '/home/hyh/ros2_prct/build/practice_package_msgs' returned '1': /usr/bin/cmake /home/hyh/ros2_prct/src/practice_package_msgs -DCMAKE_INSTALL_PREFIX=/home/hyh/ros2_prct/install/practice_package_msgs

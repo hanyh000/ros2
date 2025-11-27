@@ -1,0 +1,6 @@
+{
+  "package_name": "laser_package_msgs",
+  "non_idl_tuples": [
+    "/home/hyh/ros2_laser/src/laser_package_msgs:msg/Laser.msg"
+  ]
+}

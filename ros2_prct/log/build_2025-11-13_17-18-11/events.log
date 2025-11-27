@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (practice_package) JobQueued: {'identifier': 'practice_package', 'dependencies': OrderedDict()}
+[0.000352] (practice_package_msgs) JobQueued: {'identifier': 'practice_package_msgs', 'dependencies': OrderedDict()}
+[0.000584] (practice_package) JobStarted: {'identifier': 'practice_package'}
+[0.007083] (practice_package_msgs) JobStarted: {'identifier': 'practice_package_msgs'}
+[0.100201] (-) TimerEvent: {}
+[0.156052] (practice_package_msgs) JobProgress: {'identifier': 'practice_package_msgs', 'progress': 'cmake'}
+[0.156479] (practice_package_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/hyh/ros2_prct/src/practice_package_msgs', '-DCMAKE_INSTALL_PREFIX=/home/hyh/ros2_prct/install/practice_package_msgs'], 'cwd': '/home/hyh/ros2_prct/build/practice_package_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hyh'), ('SSH_AGENT_PID', '1318'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hyh/ros2_study/install/my_first_package_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/hyh'), ('OLDPWD', '/home/hyh/ros2_prct/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hyh/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hyh'), ('NAME', 'DESKTOP-2PHB2EP'), ('WSL_INTEROP', '/run/WSL/1297_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hyh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python39/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/202-15/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/202-15/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('WT_SESSION', '456fce18-cb7f-4a01-aef8-ac98979b607f'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmY1lQ1/agent.1317'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/home/hyh/ros2_study/install/my_first_package_msgs:/home/hyh/ros2_study/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/hyh/ros2_prct/build/practice_package_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hyh/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/hyh/ros2_study/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/hyh/ros2_study/install/my_first_package_msgs'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.200319] (-) TimerEvent: {}
+[0.284163] (practice_package_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300415] (-) TimerEvent: {}
+[0.400660] (-) TimerEvent: {}
+[0.415464] (practice_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/practice_package', 'build', '--build-base', '/home/hyh/ros2_prct/build/practice_package/build', 'install', '--record', '/home/hyh/ros2_prct/build/practice_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hyh/ros2_prct/src/practice_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hyh', 'SSH_AGENT_PID': '1318', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hyh/ros2_study/install/my_first_package_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'HOME': '/home/hyh', 'OLDPWD': '/home/hyh/ros2_prct/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hyh/ros2_study/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hyh', 'NAME': 'DESKTOP-2PHB2EP', 'WSL_INTEROP': '/run/WSL/1297_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/hyh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python39/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/202-15/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/202-15/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/202-15/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin', 'WT_SESSION': '456fce18-cb7f-4a01-aef8-ac98979b607f', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXmY1lQ1/agent.1317', 'ROS_DOMAIN_ID': '22', 'AMENT_PREFIX_PATH': '/home/hyh/ros2_study/install/my_first_package_msgs:/home/hyh/ros2_study/install/my_first_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/hyh/ros2_prct/build/practice_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hyh/ros2_prct/build/practice_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages:/home/hyh/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/hyh/ros2_study/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/hyh/ros2_study/install/my_first_package_msgs', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.501095] (-) TimerEvent: {}
+[0.541879] (practice_package_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.549510] (practice_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.549935] (practice_package) StdoutLine: {'line': b'creating ../../build/practice_package/practice_package.egg-info\n'}
+[0.550202] (practice_package) StdoutLine: {'line': b'writing ../../build/practice_package/practice_package.egg-info/PKG-INFO\n'}
+[0.550397] (practice_package) StdoutLine: {'line': b'writing dependency_links to ../../build/practice_package/practice_package.egg-info/dependency_links.txt\n'}
+[0.550574] (practice_package) StdoutLine: {'line': b'writing entry points to ../../build/practice_package/practice_package.egg-info/entry_points.txt\n'}
+[0.550775] (practice_package) StdoutLine: {'line': b'writing requirements to ../../build/practice_package/practice_package.egg-info/requires.txt\n'}
+[0.551031] (practice_package) StdoutLine: {'line': b'writing top-level names to ../../build/practice_package/practice_package.egg-info/top_level.txt\n'}
+[0.551191] (practice_package) StdoutLine: {'line': b"writing manifest file '../../build/practice_package/practice_package.egg-info/SOURCES.txt'\n"}
+[0.552110] (practice_package) StdoutLine: {'line': b"reading manifest file '../../build/practice_package/practice_package.egg-info/SOURCES.txt'\n"}
+[0.552462] (practice_package) StdoutLine: {'line': b"writing manifest file '../../build/practice_package/practice_package.egg-info/SOURCES.txt'\n"}
+[0.552611] (practice_package) StdoutLine: {'line': b'running build\n'}
+[0.552877] (practice_package) StdoutLine: {'line': b'running build_py\n'}
+[0.553003] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/build/practice_package/build\n'}
+[0.553055] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/build/practice_package/build/lib\n'}
+[0.553169] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/build/practice_package/build/lib/practice_package\n'}
+[0.553231] (practice_package) StdoutLine: {'line': b'copying practice_package/__init__.py -> /home/hyh/ros2_prct/build/practice_package/build/lib/practice_package\n'}
+[0.553292] (practice_package) StdoutLine: {'line': b'copying practice_package/practice_node.py -> /home/hyh/ros2_prct/build/practice_package/build/lib/practice_package\n'}
+[0.553477] (practice_package) StdoutLine: {'line': b'running install\n'}
+[0.553655] (practice_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.554047] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package\n'}
+[0.554226] (practice_package) StdoutLine: {'line': b'copying /home/hyh/ros2_prct/build/practice_package/build/lib/practice_package/__init__.py -> /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package\n'}
+[0.554308] (practice_package) StdoutLine: {'line': b'copying /home/hyh/ros2_prct/build/practice_package/build/lib/practice_package/practice_node.py -> /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package\n'}
+[0.554575] (practice_package) StdoutLine: {'line': b'byte-compiling /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package/__init__.py to __init__.cpython-310.pyc\n'}
+[0.554780] (practice_package) StdoutLine: {'line': b'byte-compiling /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package/practice_node.py to practice_node.cpython-310.pyc\n'}
+[0.554979] (practice_package) StdoutLine: {'line': b'running install_data\n'}
+[0.555077] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/install/practice_package/share\n'}
+[0.555217] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/install/practice_package/share/ament_index\n'}
+[0.555359] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/install/practice_package/share/ament_index/resource_index\n'}
+[0.555420] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/install/practice_package/share/ament_index/resource_index/packages\n'}
+[0.555557] (practice_package) StdoutLine: {'line': b'copying resource/practice_package -> /home/hyh/ros2_prct/install/practice_package/share/ament_index/resource_index/packages\n'}
+[0.555637] (practice_package) StdoutLine: {'line': b'creating /home/hyh/ros2_prct/install/practice_package/share/practice_package\n'}
+[0.555787] (practice_package) StdoutLine: {'line': b'copying package.xml -> /home/hyh/ros2_prct/install/practice_package/share/practice_package\n'}
+[0.555857] (practice_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.556747] (practice_package) StdoutLine: {'line': b'Copying ../../build/practice_package/practice_package.egg-info to /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package-0.0.0-py3.10.egg-info\n'}
+[0.557259] (practice_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.569360] (practice_package) StdoutLine: {'line': b'Installing practice_node script to /home/hyh/ros2_prct/install/practice_package/lib/practice_package\n'}
+[0.569780] (practice_package) StdoutLine: {'line': b"writing list of installed files to '/home/hyh/ros2_prct/build/practice_package/install.log'\n"}
+[0.582952] (practice_package) CommandEnded: {'returncode': 0}
+[0.595616] (practice_package) JobEnded: {'identifier': 'practice_package', 'rc': 0}
+[0.601178] (-) TimerEvent: {}
+[0.701388] (-) TimerEvent: {}
+[0.708310] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.787853] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.791888] (practice_package_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.793305] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.793948] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.796445] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801487] (-) TimerEvent: {}
+[0.872304] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.876408] (practice_package_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.876594] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.876876] (practice_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.886547] (practice_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.901637] (-) TimerEvent: {}
+[0.974448] (practice_package_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001832] (-) TimerEvent: {}
+[1.039202] (practice_package_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.043240] (practice_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.049022] (practice_package_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.102127] (-) TimerEvent: {}
+[1.136051] (practice_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202538] (-) TimerEvent: {}
+[1.262629] (practice_package_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.262783] (practice_package_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.262880] (practice_package_msgs) StderrLine: {'line': b'  practice_package_msgs --arguments-file\n'}
+[1.262911] (practice_package_msgs) StderrLine: {'line': b'  /home/hyh/ros2_prct/build/practice_package_msgs/rosidl_adapter__arguments__practice_package_msgs.json\n'}
+[1.262962] (practice_package_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[1.263074] (practice_package_msgs) StderrLine: {'line': b'  /home/hyh/ros2_prct/build/practice_package_msgs/rosidl_adapter/practice_package_msgs\n'}
+[1.263105] (practice_package_msgs) StderrLine: {'line': b'  --output-file\n'}
+[1.263128] (practice_package_msgs) StderrLine: {'line': b'  /home/hyh/ros2_prct/build/practice_package_msgs/rosidl_adapter/practice_package_msgs.idls)\n'}
+[1.263152] (practice_package_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.263174] (practice_package_msgs) StderrLine: {'line': b'\n'}
+[1.263198] (practice_package_msgs) StderrLine: {'line': b"  Error processing 'float pose_x' of 'practice_package_msgs/Pose_To_Val':\n"}
+[1.263220] (practice_package_msgs) StderrLine: {'line': b"  ''float' is an invalid message name.  It should have the pattern\n"}
+[1.263241] (practice_package_msgs) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[1.263263] (practice_package_msgs) StderrLine: {'line': b'\n'}
+[1.263284] (practice_package_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.263305] (practice_package_msgs) StderrLine: {'line': b'\n'}
+[1.263326] (practice_package_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.263348] (practice_package_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.263368] (practice_package_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.263389] (practice_package_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.263409] (practice_package_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.263432] (practice_package_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.263455] (practice_package_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.263475] (practice_package_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.263495] (practice_package_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.263516] (practice_package_msgs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.263536] (practice_package_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.263557] (practice_package_msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.263577] (practice_package_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[1.263596] (practice_package_msgs) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.263617] (practice_package_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[1.263636] (practice_package_msgs) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.263655] (practice_package_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.263675] (practice_package_msgs) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.263694] (practice_package_msgs) StderrLine: {'line': b'\n'}
+[1.263713] (practice_package_msgs) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message\n"}
+[1.263733] (practice_package_msgs) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.263753] (practice_package_msgs) StderrLine: {'line': b'\n'}
+[1.263772] (practice_package_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.263791] (practice_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.263813] (practice_package_msgs) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[1.263835] (practice_package_msgs) StderrLine: {'line': b'\n'}
+[1.263854] (practice_package_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.263873] (practice_package_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.263901] (practice_package_msgs) StdoutLine: {'line': b'See also "/home/hyh/ros2_prct/build/practice_package_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.267043] (practice_package_msgs) CommandEnded: {'returncode': 1}
+[1.267512] (practice_package_msgs) JobEnded: {'identifier': 'practice_package_msgs', 'rc': 1}
+[1.277981] (-) EventReactorShutdown: {}

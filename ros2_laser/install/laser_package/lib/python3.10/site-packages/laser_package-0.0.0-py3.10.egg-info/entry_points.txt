@@ -1,0 +1,5 @@
+[console_scripts]
+laser_node = laser_package.laser_node:main
+laser_pub = laser_package.laser_pub:main
+test = laser_package.test:main
+

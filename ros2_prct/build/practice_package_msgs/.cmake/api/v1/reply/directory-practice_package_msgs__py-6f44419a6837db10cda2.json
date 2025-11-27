@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "practice_package_msgs__py",
+		"source" : "/home/hyh/ros2_prct/build/practice_package_msgs/practice_package_msgs__py"
+	}
+}

@@ -1,0 +1,25 @@
+[0.371s] Invoking command in '/home/hyh/ros2_prct/src/practice_package': PYTHONPATH=/home/hyh/ros2_prct/build/practice_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice_package build --build-base /home/hyh/ros2_prct/build/practice_package/build install --record /home/hyh/ros2_prct/build/practice_package/install.log --single-version-externally-managed install_data
+[0.503s] running egg_info
+[0.503s] writing ../../build/practice_package/practice_package.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../../build/practice_package/practice_package.egg-info/dependency_links.txt
+[0.504s] writing entry points to ../../build/practice_package/practice_package.egg-info/entry_points.txt
+[0.504s] writing requirements to ../../build/practice_package/practice_package.egg-info/requires.txt
+[0.504s] writing top-level names to ../../build/practice_package/practice_package.egg-info/top_level.txt
+[0.505s] reading manifest file '../../build/practice_package/practice_package.egg-info/SOURCES.txt'
+[0.505s] writing manifest file '../../build/practice_package/practice_package.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.506s] copying practice_package/pose_sub_and_pub.py -> /home/hyh/ros2_prct/build/practice_package/build/lib/practice_package
+[0.506s] running install
+[0.506s] running install_lib
+[0.507s] copying /home/hyh/ros2_prct/build/practice_package/build/lib/practice_package/pose_sub_and_pub.py -> /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package
+[0.507s] byte-compiling /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package/pose_sub_and_pub.py to pose_sub_and_pub.cpython-310.pyc
+[0.507s] running install_data
+[0.508s] running install_egg_info
+[0.508s] removing '/home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.509s] Copying ../../build/practice_package/practice_package.egg-info to /home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages/practice_package-0.0.0-py3.10.egg-info
+[0.509s] running install_scripts
+[0.521s] Installing pose_sub_and_pub script to /home/hyh/ros2_prct/install/practice_package/lib/practice_package
+[0.522s] Installing practice_node script to /home/hyh/ros2_prct/install/practice_package/lib/practice_package
+[0.522s] writing list of installed files to '/home/hyh/ros2_prct/build/practice_package/install.log'
+[0.535s] Invoked command in '/home/hyh/ros2_prct/src/practice_package' returned '0': PYTHONPATH=/home/hyh/ros2_prct/build/practice_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyh/ros2_prct/install/practice_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice_package build --build-base /home/hyh/ros2_prct/build/practice_package/build install --record /home/hyh/ros2_prct/build/practice_package/install.log --single-version-externally-managed install_data
