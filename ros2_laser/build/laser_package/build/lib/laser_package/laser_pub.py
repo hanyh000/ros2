@@ -14,17 +14,6 @@ NUM_POINTS = 360
 RANGE_MIN = 0.12
 RANGE_MAX = 3.5
 
-PATTERNS = [
-    "front_wall",
-    "left_wall",
-    "right_wall",
-    "leftandright_wall",
-    "frontandright_wall",
-    "frontandleft_wall",
-    "frontandleftandright_wall"
-]
-
-
 def create_empty_scan():
     ranges = [RANGE_MAX for _ in range(NUM_POINTS)]
     intensities = [float(100) for _ in range(NUM_POINTS)]
@@ -96,6 +85,16 @@ def generate_single_scan(pattern_name):
         pattern_frontandleftandright_wall(scan)
     return scan
 
+AVAILABLE_PATTERNS = [
+    "front_wall",
+    "left_wall",
+    "right_wall",
+    "leftandright_wall",
+    "frontandright_wall",
+    "frontandleft_wall",
+    "frontandleftandright_wall"
+]
+
 class LaserPub(Node):
     def __init__(self):
         super().__init__('laser_publisher')
@@ -105,7 +104,7 @@ class LaserPub(Node):
         self.timer_period = 2.0
         self.timer = self.create_timer(self.timer_period, self.timer_callback)
 
-        self.pattern_name = random.choice(PATTERNS)
+        self.pattern_name = random.choice(AVAILABLE_PATTERNS)
 
         scan = generate_single_scan(self.pattern_name)
 
@@ -120,7 +119,7 @@ class LaserPub(Node):
         self.laser_val.pattern_name = self.pattern_name
 
     def timer_callback(self):
-        self.pattern_name = random.choice(PATTERNS)
+        self.pattern_name = random.choice(AVAILABLE_PATTERNS)
         scan = generate_single_scan(self.pattern_name)
         self.laser_val.ranges = scan["ranges"]
         self.laser_val.intensities = scan["intensities"]
