@@ -6,6 +6,7 @@ from laser_package_msgs.msg import Laser
 
 import math
 import random
+import numpy as np
 
 ANGLE_MIN_DEG = 0
 ANGLE_MAX_DEG = 359
@@ -33,7 +34,8 @@ def make_the_wall(ranges, center_deg, width_deg):
     for offset in range(-half_width, half_width + 1):
         idx = (center_deg + offset) % NUM_POINTS
         ranges[idx] = 0.4
-
+    rand_idx = random.randint(0, 359)
+    ranges[rand_idx] = np.inf
 
 def pattern_front_wall(scan):
     make_the_wall(scan["ranges"], center_deg=0, width_deg=40)
