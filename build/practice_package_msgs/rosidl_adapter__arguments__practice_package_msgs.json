@@ -1,0 +1,6 @@
+{
+  "package_name": "practice_package_msgs",
+  "non_idl_tuples": [
+    "/home/hyh/ros2_prct/src/practice_package_msgs:msg/PoseToVal.msg"
+  ]
+}

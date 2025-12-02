@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/practice_package/practice_package.egg-info
+writing ../../../build/practice_package/practice_package.egg-info/PKG-INFO
+writing dependency_links to ../../../build/practice_package/practice_package.egg-info/dependency_links.txt
+writing entry points to ../../../build/practice_package/practice_package.egg-info/entry_points.txt
+writing requirements to ../../../build/practice_package/practice_package.egg-info/requires.txt
+writing top-level names to ../../../build/practice_package/practice_package.egg-info/top_level.txt
+writing manifest file '../../../build/practice_package/practice_package.egg-info/SOURCES.txt'
+reading manifest file '../../../build/practice_package/practice_package.egg-info/SOURCES.txt'
+writing manifest file '../../../build/practice_package/practice_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hyh/build/practice_package/build
+creating /home/hyh/build/practice_package/build/lib
+creating /home/hyh/build/practice_package/build/lib/practice_package
+copying practice_package/__init__.py -> /home/hyh/build/practice_package/build/lib/practice_package
+copying practice_package/practice_node.py -> /home/hyh/build/practice_package/build/lib/practice_package
+copying practice_package/pose_sub_and_pub.py -> /home/hyh/build/practice_package/build/lib/practice_package
+running install
+running install_lib
+creating /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package
+copying /home/hyh/build/practice_package/build/lib/practice_package/__init__.py -> /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package
+copying /home/hyh/build/practice_package/build/lib/practice_package/practice_node.py -> /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package
+copying /home/hyh/build/practice_package/build/lib/practice_package/pose_sub_and_pub.py -> /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package
+byte-compiling /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package/practice_node.py to practice_node.cpython-310.pyc
+byte-compiling /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package/pose_sub_and_pub.py to pose_sub_and_pub.cpython-310.pyc
+running install_data
+creating /home/hyh/install/practice_package/share/ament_index
+creating /home/hyh/install/practice_package/share/ament_index/resource_index
+creating /home/hyh/install/practice_package/share/ament_index/resource_index/packages
+copying resource/practice_package -> /home/hyh/install/practice_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/hyh/install/practice_package/share/practice_package
+running install_egg_info
+Copying ../../../build/practice_package/practice_package.egg-info to /home/hyh/install/practice_package/lib/python3.10/site-packages/practice_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pose_sub_and_pub script to /home/hyh/install/practice_package/lib/practice_package
+Installing practice_node script to /home/hyh/install/practice_package/lib/practice_package
+writing list of installed files to '/home/hyh/build/practice_package/install.log'
